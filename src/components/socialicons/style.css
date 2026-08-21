@@ -1,0 +1,75 @@
+.stick_follow_icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 14px;
+}
+
+.stick_follow_icon ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 14px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.stick_follow_icon ul li {
+    display: inline-flex;
+    align-items: center;
+    transition: all .3s;
+}
+
+.stick_follow_icon svg {
+    width: 2.2em;
+    height: 2.2em;
+    fill: var(--text-color);
+    color: var(--text-color);
+}
+
+.stick_follow_icon p {
+    color: var(--text-color-2);
+    font-size: 22px;
+    font-weight: 700;
+    white-space: nowrap;
+    margin: 0;
+}
+
+.stick_follow_icon p:after {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .stick_follow_icon p {
+        display: none;
+    }
+
+    .stick_follow_icon svg {
+        width: 1.8em;
+        height: 1.8em;
+    }
+
+    .stick_follow_icon {
+        gap: 10px;
+    }
+
+    .stick_follow_icon ul {
+        gap: 10px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .stick_follow_icon svg {
+        width: 1.4em;
+        height: 1.4em;
+    }
+
+    .stick_follow_icon {
+        gap: 8px;
+    }
+
+    .stick_follow_icon ul {
+        gap: 8px;
+    }
+}
