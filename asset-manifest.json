@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.css": "/portfolio-welbber-marques/static/css/main.c0fb4f61.css",
+    "main.js": "/portfolio-welbber-marques/static/js/main.27fe28b0.js",
+    "static/media/Foto Atualizada.png": "/portfolio-welbber-marques/static/media/Foto Atualizada.961f54b8eb74633f6ab6.png",
+    "index.html": "/portfolio-welbber-marques/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.c0fb4f61.css",
+    "static/js/main.27fe28b0.js"
+  ]
+}

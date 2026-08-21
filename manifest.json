@@ -1,0 +1,15 @@
+{
+  "short_name": "Welbber",
+  "name": "Welbber Marques — Portfólio",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#0c0c0c",
+  "background_color": "#0c0c0c"
+}
